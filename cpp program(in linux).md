@@ -1,6 +1,9 @@
 **`LINUX COMMANDS USED:`**
+
  *vi file_name.cpp*  >>[To write program]
+ 
 *g++ file_name.cpp* >>[To compile file and generate o/p]
+
 *./a.out*  >>[To display result]
 
 ## PRINTING "HELLO" PROGRAM
