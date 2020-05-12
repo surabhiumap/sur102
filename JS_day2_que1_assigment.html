@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <p>max number is:</p> 
+<button onclick="getmax(a)">Click to get max number</button>
+    
+    <script>
+          var a=[10,15,40,50,55,44,22,77,11,3];
+        function getmax(a)
+        {
+            var b=a.sort(function(a,b){return b-a});
+            document.write(b[0]);
+        }
+  
+    </script>
+            
+
+</body>
+</html>
