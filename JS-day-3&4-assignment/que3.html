@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+<body>
+<p id="demo1"></p>
+<p id="demo2"></p>
+<script>
+class Math 
+{
+  constructor(Number)
+ {
+    this.no = Number;
+  }
+  static square (x)
+  {
+    return x.no*x.no;
+  }
+  static cube (x) {
+    return x.no*x.no*x.no;
+  }
+}
+
+mymath = new Math("8");
+
+document.getElementById("demo1").innerHTML = Math.square(mymath);
+document.getElementById("demo2").innerHTML = Math.cube(mymath);
+</script>
+
+</body>
+</html>

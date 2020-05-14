@@ -1,0 +1,32 @@
+<!DOCTYPE html
+><html>
+<body>
+<p id="demo"></p>
+<p id ="demo1"></p>
+<script> 
+class account
+{
+constructor(b,n)
+{
+this.name=b; 
+this.balance=n; 
+} 
+deposit(x) 
+{ 
+this.balance=this.balance+x; 
+}
+display() 
+{
+var name=this.name+" "+this.balance+"<br>"; 
+document.write(name);
+}
+}
+user1=new account("surabhi",80000);
+user2=new account("akki",40000);
+user1.deposit(2000);
+user2.deposit(2000);
+user1.display();
+user2.display();
+</script>
+</body>
+</html>

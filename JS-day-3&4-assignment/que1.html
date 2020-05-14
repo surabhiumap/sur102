@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+<p>Factorial of given numbar is</p>
+
+
+<p id="demo"></p>
+
+<script>
+var f = (n) =>
+            {
+                let fact = 1;
+                if(n==0)
+                {
+                    return fact ;
+                }
+                else if(n==1)
+                {
+                    return fact;
+                }
+                else
+                {
+                    for(let i=2;i<=n;i++)
+                    {
+                        fact=fact*i;
+                    }
+                    return fact;
+                }
+            }
+            document.getElementById("demo").innerHTML = f(6);
+</script>
+
+</body>
+</html>
